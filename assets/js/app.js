@@ -14,7 +14,7 @@ fetch("https://gregbot-back.onrender.com/api/v1/dialogs")
             question.innerHTML=document.querySelector(".question").value
             data.forEach(dialog =>{
                 if(e.target.value === dialog.question){
-                    console.log(dialog.answer)
+                    console.log("réponse : "+dialog.answer)
                     answer.innerHTML = dialog.answer
                 }
             })
