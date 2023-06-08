@@ -12,7 +12,7 @@ fetch("https://gregbot-back.onrender.com/api/v1/dialogs")
         })
 
         inputdialog.addEventListener("change", e=>{
-            question.innerHTML=document.querySelector(".form-question").value
+            question.innerHTML=document.querySelector(".form").value
             data.message.forEach(dialog =>{
                 if(e.target.value === dialog.question){
                     console.log(dialog.answer)
