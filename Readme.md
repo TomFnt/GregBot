@@ -1,8 +1,8 @@
 GregBot côté Frontend : 
 
 Lien à utiliser : 
-- => Accueil du site 
-- => Chatbot 
+- https://tomfnt.github.io/GregBot/ => Accueil du site 
+- https://tomfnt.github.io/GregBot/chatbot.html => Chatbot 
 - => Dashboard renvoyant vers notre jeux de questions/ réponses 
 - => formulaire de création d'un jeu de question/réponse
 
