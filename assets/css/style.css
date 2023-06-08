@@ -1,6 +1,10 @@
 body{
     font-family: "Agency FB";
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
+
 
 .home-img {
     width: 500px;
@@ -30,7 +34,7 @@ border: 1px solid cornflowerblue;
     background-color: cornflowerblue;
 }
 
-.mess-question { border: 1px solid cornflowerblue;
+.messquestion { border: 1px solid cornflowerblue;
     background-color: cornflowerblue;
     color: white;
     text-decoration: none;
@@ -41,7 +45,7 @@ border: 1px solid cornflowerblue;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.mess-reponse{
+.messreponse{
     border: 1px solid darkslateblue;
     background-color: darkslateblue;
     color: white;
@@ -57,5 +61,9 @@ border: 1px solid cornflowerblue;
     display: flex;
     flex-direction: column;
     gap:1rem;
+    padding-top: 20px;
+}
 
+.joke{
+    padding-top: 20px;
 }
