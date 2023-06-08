@@ -1,4 +1,5 @@
-GregBot côté Frontend : 
+# GregBot Frontend
+## VERSION 1 
 
 Lien à utiliser : 
 - https://tomfnt.github.io/GregBot/ => Accueil du site 
