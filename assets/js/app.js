@@ -1,7 +1,7 @@
 const datalist = document.querySelector("#datalist");
 const question = document.querySelector(".messquestion");
 const answer = document.querySelector(".messreponse");
-const inputdialog = document.querySelector("#sugestion");
+const inputdialog = document.querySelector(".question");
 
 
 fetch("https://gregbot-back.onrender.com/api/v1/dialogs")
